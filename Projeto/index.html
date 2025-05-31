@@ -4,54 +4,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aluguel De Iates</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>  
-
-<div id="cabecalho">
-    <img src="Fotos/barco1.png" alt="">
-    <h1><strong>Luxo</strong></h1> 
-    <h2>Aluguel de Iates </h2>
-</div>
-
-<div id="menu"> 
-    <ul>
-        <li><a href="index.html"><h2>PÁGINA INICIAL</h2></a></li>
-        <li><a href="Aluguel de iates.html"><h2>ALUGUEL DE IATES</h2></a></li>
-        <li><a href="Destinos.html"><h2>DESTINOS</h2></a></li>
-        <li><a href="Tripulação.html"><h2>TRIPULAÇÃO</h2></a></li>
-        <li><a href="Contato.html"><h2>CONTATO</h2></a></li>
-     </ul>
-</div>
-    <img src="Fotos/barcoprincipal.jpg" alt="">
+    <h1><strong>Luxo</strong> <br />Aluguel de Iates</h1>
     
-<div id="main">
-    <img src="Fotos/barco2.png" alt="">
-        Você só encontra coisas boas se combinar com luxo e paixão.
-        Ligue agora para agendar as ferias de sua vida:(00) 8000-0000
-</div>     
+    <img src="Fotos/barco1.png" alt="Logo Barco">
 
-<div id="section">
-    <img src="Fotos/destino.png" alt="">   
-    <p>Sou um título. Clique aqui para editar.</p>
-    <p>Clique aqui para adicionar seu texto e me  editar. é fácil, basta clicar em "Editar Texto" ou clicar duas vezes sobre mim e poderá adicionar seu próprio conteúdo e mudar fontes. Sou um ótimo lugar para contar sua história e permitir que seus visitantes saibam mais sobre você.</p>
-    Destinos
-</div>
+    <nav>
+        <a href="index.html"><h2>PÁGINA INICIAL</h2></a>
+        <a href="Aluguel de iates.html"><h2>ALUGUEL DE IATES</h2></a>
+        <a href="Destinos.html"><h2>DESTINOS</h2></a>
+        <a href="Tripulação.html"><h2>TRIPULAÇÃO</h2></a>
+        <a href="Contato.html"><h2>CONTATO</h2></a>
+    </nav>
 
-<div id="frota">
-    <img src="Fotos/nossafrota.png" alt="">
-    Nossa Frota
-    <p>Sou um título. Clique aqui para editar.</p>
-    <p>Clique aqui para adicionar seu texto e me  editar. é fácil, basta clicar em "Editar Texto" ou clicar duas vezes sobre mim e poderá adicionar seu próprio conteúdo e mudar fontes. Sou um ótimo lugar para contar sua história e permitir que seus visitantes saibam mais sobre você.</p>
-</div>
+    <!-- Container da imagem com texto posicionado -->
+    <div class="banner">
+        <img src="Fotos/barcoprincipal.jpg" alt="Barco Principal">
 
-<img src="Fotos/barcodestino.jpg" alt="">
-<img src="Fotos/barconossafrota2.jpg" alt="">
-<img src="Fotos/barconossafrota1.jpg" alt="">
-<img src="Fotos/barconossafrota2.jpg" alt="">
-<img src="Fotos/barconossafrota1.jpg" alt="">
+        <div class="numero">
+            <div class="texto">
+                Você só encontra coisas boas, <br />
+                se combinar luxo e paixão.<br /><br />
 
-<div id="rodape">©️ 2023 por Luxo aluguel de iates</div>
- 
-    
+                <div class="ligacao">
+                    <img src="Fotos/barco1.png" alt="Ícone de vela" class="icone">
+                    <span>Ligue agora para agendar as férias de sua vida: 
+                        <span class="tel">(00) 8000-0000</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bloco lado a lado: Destino + Frota + textos -->
+    <div class="botoes-secoes">
+        <div class="secao-completa">
+            <div class="secao destino">
+                <img src="Fotos/destino.png" alt="Ícone Destino" class="icone-secao">
+                <span>Destinos</span>
+            </div>
+            <p>Sou um título. Clique aqui para editar.</p>
+            <p>Clique aqui para adicionar seu texto e me editar...</p>
+        </div>
+
+        <div class="secao-completa">
+            <div class="secao frota">
+                <img src="Fotos/nossafrota.png" alt="Ícone Frota" class="icone-secao">
+                <span>Nossa frota</span>
+            </div>
+            <p>Sou um título. Clique aqui para editar.</p>
+            <p>
+                Clique aqui para adicionar seu texto e me editar. É fácil, basta clicar em 
+                "Editar Texto" ou clicar duas vezes sobre mim e poderá adicionar seu próprio conteúdo 
+                e mudar fontes. Sou um ótimo lugar para contar sua história e permitir que seus visitantes 
+                saibam mais sobre você.
+            </p>
+        </div>
+    </div>
+
+    <!-- Imagens de barcos -->
+    <div class="galeria">
+        <div class="imagem-grande">
+            <img src="Fotos/barcodestino.jpg" alt="Barco Destino">
+        </div>
+        <div class="imagens-menores">
+            <img src="Fotos/barconossafrota2.jpg" alt="Frota 2">
+            <img src="Fotos/barconossafrota1.jpg" alt="Frota 1">
+            <img src="Fotos/barconossafrota2.jpg" alt="Frota 2">
+            <img src="Fotos/barconossafrota1.jpg" alt="Frota 1">
+        </div>
+    </div>
+
+    <footer>© 2023 por Luxo aluguel de iates</footer>
 </body>
 </html>
